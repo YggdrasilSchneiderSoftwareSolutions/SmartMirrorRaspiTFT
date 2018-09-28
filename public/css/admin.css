@@ -1,0 +1,39 @@
+body {
+	background-color: #000000;
+	background: -webkit-linear-gradient(top, #2F4F4F, #000000) fixed;
+	color: #FFFFFF;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	/*color: #696969;
+	font-family: Roboto, Helvetica, Arial, sans-serif;*/
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto Light"), local("Roboto-Light"), url("https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfaCWcynf_cDxXwCLxiixG1c.ttf") format("truetype");
+}
+
+.btn {
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    /*background-color: #FFA500;*/
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+	/*color: #FFA500;*/
+	color: #FFFFFF;
+	/*background-color: #F5F5F5;*/
+	background-color: #2F4F4F;
+}
+
+.fehler {
+	font-weight: bold;
+	color: red;
+}
+
+.erfolg {
+	font-weight: bold;
+	color: green;
+}

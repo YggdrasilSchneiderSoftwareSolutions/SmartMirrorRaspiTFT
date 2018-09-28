@@ -1,0 +1,99 @@
+body {
+	background-color: #000000;
+	background: -webkit-linear-gradient(top, #2F4F4F, #000000) fixed;
+	color: #FFFFFF;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto Light"), local("Roboto-Light"), url("https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfaCWcynf_cDxXwCLxiixG1c.ttf") format("truetype");
+}
+
+#fehler {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+#willkommen h1 {
+	font-size: 72px;
+	margin: auto;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#willkommen p {
+	font-size: 9px;
+	margin: auto;
+	text-align: center;
+}
+
+.timestamp {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	/*background-color: green;*/
+}
+
+.uhrzeitClass h1 {
+	font-size: 36px;
+	float: right;
+}
+
+.weather {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	/*background-color: green;*/
+}
+
+.grad {
+	font-size: 58px;
+}
+
+.grad img {
+	/*margin-left: 15px;*/
+	float:right;
+}
+
+.newsfeed {
+	font-size: 100%;
+	position: fixed;
+	padding-left: 50px;
+	bottom: 30px;
+	left: 0;
+	right: 0;
+	/*background-color: green;*/
+	line-height: 30px;
+	list-style-type: none;
+}
+
+.bahnAuskunft {
+	/*background-color: green;*/
+	position: absolute;
+	top: 200px;
+	left: 30px;
+}
+
+.bahnAuskunft table { 
+	width: 20px;
+	font-size: 15px;
+}
+
+.bahnAuskunft table th { 
+	height: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.bahnAuskunft table td { 
+	padding-left: 15px;
+}
+
+.cputemp {
+	position: absolute;
+	top: 110px;
+	right: 30px;
+	/*background-color: green;*/
+}

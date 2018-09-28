@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/bootstrap-clockpicker.min.css">
+	
+	<!-- jQuery first, then Bootstrap JS. -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/admin.js"></script>
+	<script src="js/bootstrap-clockpicker.min.js"></script>
+	<title>SmartMirror Admin-Gui</title>
+</head>
+<body>
+	<div class="container content">
+		<h1>SmartMirror Admin UI</h1>
+		<div id="statusMsg"></div>
+		<form id="adminForm">
+			<div id="userDaten">
+				<h4>Userdaten</h4>
+				<div class="form-group">
+					<label for="username">Benutzername:</label> 
+					<input id="username" class="form-control" type="text" name="username" placeholder="Dein Name" />
+				</div>
+				<div class="form-group"> 
+					<label for="cityid">Stadt-ID:</label>
+					<input id="cityid" class="form-control" type="text" name="cityid" placeholder="Stadt-ID" />
+					<small id="cityidHelp" class="form-text text-muted">Du findest die City-ID auf openweathermap.com</small>
+				</div>
+			</div>
+			<div id="adminwecker">
+				<h4>Wecker einstellen</h4>
+				<div class="form-group">
+					<label class="radio-inline"> <input id="weckerAn"
+						type="radio" name="weckerRadio" value="an">An
+					</label> <label class="radio-inline"> <input id="weckerAus"
+						type="radio" name="weckerRadio" value="aus">Aus
+					</label>
+				</div>
+				<div class="input-group clockpicker" data-placement="top" data-autoclose="true">
+					<input type="text" id="weckerZeit" class="form-control" value="08:15"> <span
+						class="input-group-addon"> <span
+						class="glyphicon glyphicon-time"></span>
+					</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<button id="adminButtonSave" class="btn form-control">
+					<span class="glyphicon glyphicon-floppy-save"></span> Speichern
+				</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+	"user" : "Max",
+	"appid" : "your-api-key",
+	"cityid" : "your city-id",
+	"trace" : "true",
+	"wecker" : {
+		"aktiv" : "true",
+		"zeit"	: "06:00"
+	}
+}
